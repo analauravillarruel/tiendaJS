@@ -35,8 +35,7 @@ while(seguirComprado === true){
 alert(`El total de tu compra es: $ ${totalCompra}`)
 
 
-
-// 1.Miel:250
+// 1.Miel: 250
 //- 2.Almendras: 200
 // - 3.Nueces:300 
 //- 4.Cereales: 150 

@@ -1,0 +1,78 @@
+@import "../partials/header";
+.home__hero {
+  padding-top: 50px;
+}
+.home__hero .container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.home__hero .container h2 {
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+}
+.home__hero .container .productos__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 2em;
+  padding-top: 1em;
+}
+.home__hero .container .productos__container .producto__card {
+  width: 100%;
+  max-width: 250px;
+  max-height: 400px;
+  background-color: rgb(240, 182, 95);
+  border-radius: 2rem;
+  padding: 2em;
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.home__hero .container .productos__container .producto__card h3 {
+  font-size: 1em;
+}
+.home__hero .container .productos__container .producto__card div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.home__hero .container .productos__container .producto__card div p {
+  font-size: 1.1em;
+}
+.home__hero .container .productos__container .producto__card img {
+  margin: auto;
+  width: 100%;
+  max-width: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.categorias {
+  margin: 0 13%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 0.5em 1em;
+}
+.categorias a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(113, 211, 104);
+  font-size: 0.9em;
+  font-weight: 700;
+  gap: 0;
+  border: 1px solid rgb(238, 238, 238);
+  padding: 0.25em 1em;
+}
+.categorias a:hover {
+  gap: 0.5em;
+}
+
+/* NAV */
+/* CONTENIDO *//*# sourceMappingURL=styles.css.map */

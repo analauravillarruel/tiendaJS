@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aceite de Coco",
+    "precio": 1500,
+    "imagen": "./image/aceitedecoco.jpg",
+    "categoria":"aceites"
+  },
+  {
+    "id": 2,
+    "nombre": "Aceite de Oliva",
+    "precio": 1185,
+    "imagen": "./image/aceitedeoliva.jpg",
+    "categoria": "aceites"
+  },
+  {
+    "id": 3,
+    "nombre": "Granola",
+    "precio": 700,
+    "imagen": "./image/granola.jpg",
+    "categoria": "frutos secos"
+  },
+  {
+    "id": 4,
+    "nombre": "Cereal sin azucar",
+    "precio": 600,
+    "imagen": "./image/cereal.jpg",
+    "categoria": "cereales"
+  },
+  {
+    "id": 5,
+    "nombre": "Avena",
+    "precio": 400,
+    "imagen": "./image/avena.jpg",
+    "categoria": "cereales"
+  },
+  {
+    "id": 6,
+    "nombre": "Yogur Neutro",
+    "precio": 550,
+    "imagen": "./image/yogur.jpg",
+    "categoria": "bebibles"
+  },
+  {
+    "id": 7,
+    "nombre": "Leche de Almendra",
+    "precio": 869,
+    "imagen": "./image/lechedealmendra.jpg",
+    "categoria": "bebibles"
+  },
+  {
+    "id": 8,
+    "nombre": "Pan Integral",
+    "precio": 1200,
+    "imagen": "./image/panintegral.jpg",
+    "categoria": "panes"
+  },
+  {
+    "id": 9,
+    "nombre": "Té verde",
+    "precio": 745,
+    "imagen": "./image/teverde.jpg",
+    "categoria": "infusiones"
+  },
+  {
+    "id": 10,
+    "nombre": "Té negro",
+    "precio": 835,
+    "imagen": "./image/te-negro.jpg",
+    "categoria": "infusiones"
+  },
+  {
+    "id": 11,
+    "nombre": "Fideos Integrales",
+    "precio": 596,
+    "imagen": "./image/fideosintegrales.jpg",
+    "categoria": "fideos"
+  },
+  {
+    "id": 12,
+    "nombre": "Pan sin tacc",
+    "precio": 1711,
+    "imagen": "./image/pan-sintacc.jpg",
+    "categoria": "panes"
+  },
+  {
+    "id": 13,
+    "nombre": "Fideos sin tacc",
+    "precio": 630,
+    "imagen": "./image/fideos-sintacc.jpg",
+    "categoria": "fideos"
+  }
+]
+

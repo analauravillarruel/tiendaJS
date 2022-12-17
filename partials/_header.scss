@@ -1,5 +1,12 @@
+
+@forward "../componentes/botones";
+
+@use "../abstractos/mixins" as mixin;
+@use "../abstractos/variables" as v;
+@use "../abstractos/maps" as map;
+
 .header {
-  background-color: rgba(70, 53, 170, 0.877);
+  background-color: rgba(245, 245, 245, 0.877);
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -8,19 +15,19 @@
   -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.1);
 
   .container {
+    @include mixin.container(20px);
     justify-content: space-between;
     align-items: center;
     a {
       display: flex;
       gap: 1em;
       align-items: center;
-      color: map-get(map.$color-palette, text-color);
-      text-transform: lowercase;
+      color: rgb(126, 60, 36);
       h1 {
         font-size: 1.5em;
       }
       img {
-        width: 50px;
+        width: 35px;
       }
     }
   }
@@ -67,7 +74,7 @@ nav {
       width: 90%;
       padding: 1em;
       font-size: 1em;
-      color: map-get(map.$color-palette, text-color);
+      color: coral;
       box-shadow: v.$soft-shadow;
       div {
         display: flex;
@@ -93,7 +100,7 @@ nav {
   #total {
     margin-top: 1em;
     font-size: 1.2em;
-    //color: map-get(map.$color-palette, text-color);
+    color: rgb(145, 101, 145);
     font-weight: bold;
   }
 }

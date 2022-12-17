@@ -1,3 +1,7 @@
+@use "../abstractos/mixins" as mixin;
+@use "../abstractos/maps" as map;
+@use "../abstractos/variables" as v;
+
 .home__hero {
   padding-top: 50px;
   .container {
@@ -54,6 +58,59 @@
   }
 }
 
+nav {
+  background-color: #f5f6fe !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    li {
+      margin: auto;
+      background-color: white;
+      border-radius: 0.5em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1em;
+      width: 90%;
+      padding: 1em;
+      font-size: 1em;
+      color: map-get(map.$color-palette, text-color);
+      box-shadow: v.$soft-shadow;
+      div {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+      }
+      img {
+        width: 40px;
+      }
+      .bx {
+        justify-self: end;
+        font-size: 24px;
+        color: rgb(145, 129, 37);
+        cursor: pointer;
+      }
+    }
+  }
+  a {
+    color: rgb(180, 167, 52) !important;
+    margin-top: 2em;
+    font-size: 1em !important;
+  }
+  #total {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: map-get(map.$color-palette, text-color);
+    font-weight: bold;
+  }
+}
+
 .categorias {
   margin: 0 13%;
   display: flex;
@@ -64,7 +121,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(113, 211, 104);
+    color: rgb(62, 179, 51);
     font-size: 0.9em;
     font-weight: 700;
     border-radius: calc(v.$border-radius * 1);

@@ -1,15 +1,8 @@
-@import "../abstractos/maps";
-@import "../abstractos/mixins";
+@forward "../abstractos/maps";
+@forward "../abstractos/mixins";
+@forward "../abstractos/variables";
 
-@import "../partials/header";
-@import "../partials/home";
+@forward "../partials/header";
+@forward "../partials/home";
 
-
-/* NAV */
-
-
-
-
-
-/* CONTENIDO */
 

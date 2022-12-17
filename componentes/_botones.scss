@@ -1,4 +1,4 @@
-@use "../abstracts/maps" as map;
+@use "../abstractos/maps" as map;
 
 @mixin button-primary() {
   background: map-get(map.$gradient-palette, primary-gradient);
